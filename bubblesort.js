@@ -1,29 +1,6 @@
-// function swap(array, index) {
-//     let temp1 = array[index]
-//     let temp2 = array[index+1]
-//     array[index] = temp2
-//     array[index + 1] = temp1
-//     return array
-//     }
+// if arr.length is 0 don't push it onto the array
+// but if 1 push it on
 
-
-
-// function bubbleSort(array) {
-//     if (array.length === 1 || array.length === 0) {
-//         return array
-//     } else {
-//         for (let i = 0; i < array.length - 1; i++) {
-//             if (array[i] > array[i+1]) {
-//                 swap(array, i)
-//             }
-//         }
-//     }
-//   }
-
-  const sort = {
-      bubbleSort,
-      swap
-            }
 
 
   function bubbleSort(array) {
