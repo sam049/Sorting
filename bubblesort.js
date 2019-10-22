@@ -28,7 +28,6 @@
     let temp2 = array[index+1]
     array[index] = temp2
     array[index + 1] = temp1
-    console.log(array + '\n')
     return array
   }
 
